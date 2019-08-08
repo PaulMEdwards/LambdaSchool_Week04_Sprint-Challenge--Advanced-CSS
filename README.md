@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive sites adjust at statically defined intervals while responsive sites adjust dynamically at flexibly defined intervals and, ideally, everything between.
 
 2. Describe what it means to be mobile first vs desktop first.
+Desktop first is designing for target sizes in a top down approach starting with highest common denominator Desktop monitor resolutions and scaling down to remove/adjust content as the screen size shrinks. Mobile first is doing so in a bottom up manner starting with the lowest common denominator mobile device resolutions and scaling up to include more/different content as screen size grows.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Sets the global font size to be 62.5% which calculates to 1rem = 10px, permitting font sizing in powers of 10 instead of 16.
 
 4. How would you describe preprocessing to someone new to CSS?
+The ability to programmatically define & reuse CSS for DRY and to increase productivity while reducing errors.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+Fav: mixins. Nothing gives me trouble now that I've practiced it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -61,7 +66,7 @@ Follow these steps for completing your project.
 
 - [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [x] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Your project manager will count the project as complete by merging the branch back into master.
 
 ### Preprocessor Set up
 
